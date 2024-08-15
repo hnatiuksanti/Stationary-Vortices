@@ -15,6 +15,18 @@ Análisis del campo de velocidades en  vórtices estacionarios para distintas  s
  ## Modelo de Rankie 
   Consiste en un flujo central (de viscosidad nula) que rota como un sólido rígido conteniendo una vorticidad constante dentro de un radio c y un flujo potencial exterior sin vorticidad. El campo de velocidades crece linealmente hasta un valor máximo y a continuación decrece como 1/r. En este caso la velocidad depende únicamente del radio medido respecto al eje de rotación rígida y tiene componente solo en la dirección azimutal. Laexpresión de la velocidad es:
 
+  $$ \vec{v}=\left\lbrace\begin{array}{l} \Omega r ~~~~~~~si~~~~~r\lt c\\\\ \frac{\Omega c^{2}}{r} ~~~~~si~~~~~r\gt c \end{array}\right. $$
   
+donde Ω es una constante que contiene información sobre la circulación del fluido.
 
  ## Modelo de Burgers
+  El modelo de Burgers propone un fluido con viscosidad no nula (ν>0), lo que modifica el campo de velocidades ya que ahora la vorticidad no está distribuida de forma homogénea en el recinto, en este caso el campo de velocidades presenta componentes en las direcciones r y z de la siguiente manera:
+  
+$$\vec{v_{r}}=-\frac{2 \nu }{c^{2}}r$$
+
+$$\vec{v_{\theta}}=\frac{\Omega c^{2}}{r}(1-e^{-\frac{r^{2}}{c^{2}}})$$
+  
+| Esquema de Rankie | Modelo de Rankie y Burgers   |
+| ----------------------------------- | ----------------------------------- |
+| <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/rankie.jpg" width="600" /> | <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/modelos.png" width="600" />  |
+
