@@ -50,3 +50,9 @@ $~~~~$ Una vez se obtuvo el centro, se lo resto alas coordenadas x e y para hace
 | ----------------------------------- | ----------------------------------- |
 | <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/agua%20vels.png" width="600" /> | <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/glicerina%20vels.png" width="600" />  |
 
+$~~~~$ Una vez obtenidos los datos promediados, se procedió a realizar los ajustes empleando el modelo de Burgers y de Rankine. A continuacion, en la figura, se observa el ajuste realizado para los datos correspondiente a la solución de agua con 400 ml de glicerina, donde en linea punteada amarilla se presenta el ajuste realizado por el modelo de Rankine y en linea punteada azul el ajuste realizado por el modelo de Burgers. Como era de esperar el modelo de Rankine no ajusta correctamente los datos obtenidos y en contraparte el modelo Burguers ajusta satisfactoriamente los datos obtenidos, ya que éste toma en cuenta la viscosidad del fluido. El error asociado a cada punto corresponde a la desviación estándar de haber promediado los datos originales.
+ 
+<p align="center">
+  <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/ajustes.png" width="550" />
+</p>
+
