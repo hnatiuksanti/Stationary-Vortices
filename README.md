@@ -7,3 +7,14 @@ Análisis del campo de velocidades en  vórtices estacionarios para distintas  s
 # Fluidos y Vórtices 
   La mecánica de fluidos es de notable importancia en diversas áreas de la física así como también en las ciencias de la atmósfera, la oceanografía y la aeronáutica. En particular el estúdio de la dinámica de vórtices es fundamental en fluidos incompresibles pues se puede considerar una primera aproximación a la turbulencia además, proporciona un ejemplo físico de un sistema fuertemente no lineal el cual tiene conexión con fenómenos caóticos.
 
+ La vorticidad es una magnitud que cuantifica la rotación local de una partícula de fluido alrededor de un cierto eje. Definida matemáticamente como el rotor del campo de velocidades $\vec{v}$ , es decir:
+ $\vec{\Omega} = \vec{\nabla} \times \vec{v}$. 
+ 
+ En este trabajo son de interés dos modelos para describir el campo de velocidades: el modelo de Rankine y el modelo de Burgers. 
+
+ ## Modelo de Rankie 
+  Consiste en un flujo central (de viscosidad nula) que rota como un sólido rígido conteniendo una vorticidad constante dentro de un radio c y un flujo potencial exterior sin vorticidad. El campo de velocidades crece linealmente hasta un valor máximo y a continuación decrece como 1/r. En este caso la velocidad depende únicamente del radio medido respecto al eje de rotación rígida y tiene componente solo en la dirección azimutal. Laexpresión de la velocidad es:
+
+  
+
+ ## Modelo de Burgers
