@@ -32,3 +32,14 @@ $$\vec{v_{z}}=\frac{4 \nu }{c^{2}}z$$
 | ----------------------------------- | ----------------------------------- |
 | <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/rankie.jpg" width="600" /> | <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/modelos.png" width="600" />  |
 
+# Montaje experimental
+El montaje experimental empleado es sencillo y de facil reproducción. Se utilizó un recipiente cilíndrico en el cual se colocó un agitador magnético Decalab-FBR el cual contaba con 5 niveles de frecuencias distintas. Se filmó con un celular y se exportó cada video para realizar el análisis mediante PIVlab. Para poder caracterizar el campo de velocidades del fluido se utilizó gliter azul como partículas trazadoras y se agregó colorante vegetal negro FLEIBOR para generar mayor contraste. 
+<p align="center">
+  <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/montaje%20exp.png" width="550" />
+</p>
+
+# PIVlab Image Analysis
+Un Análisis PIV consiste principalmente en tres pasos: Pre-procesamiento de imágenes, análisis de imágenes y post-procesamiento. El preprocesamiento consiste en determinar un área de interés para las imágenes sobre la cual se realizará el análisis esto para descartar zonas donde no hay fluido o simplemente eliminar brillos indeseados. En el post-procesamiento en cambio, se filtran los resultados insatisfactorios y se puede realizar un tratamiento estadístico de los datos para obtener valores medios. La parte más importante del análisis PIV es el análisis de imágenes, para realizarlo se utiliza un algoritmo de correlación cruzada. Para ello se crea un cuadro pequeño que encierre a una partícula dentro de un área determinada y se la compara con la siguiente imagen para determinar cuan correlacionadas están las imágenes. Con este análisis se obtuvo el campo de velocidades del fluido. 
+<p align="center">
+  <img src="https://github.com/hnatiuksanti/Stationary-Vortices/blob/main/im%C3%A1genes/Campo_velocidades_sin_glic.png" width="550" />
+</p>
