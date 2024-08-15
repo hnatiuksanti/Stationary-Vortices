@@ -25,6 +25,8 @@ donde Ω es una constante que contiene información sobre la circulación del f
 $$\vec{v_{r}}=-\frac{2 \nu }{c^{2}}r$$
 
 $$\vec{v_{\theta}}=\frac{\Omega c^{2}}{r}(1-e^{-\frac{r^{2}}{c^{2}}})$$
+
+$$\vec{v_{z}}=\frac{4 \nu }{c^{2}}z$$
   
 | Esquema de Rankie | Modelo de Rankie y Burgers   |
 | ----------------------------------- | ----------------------------------- |
